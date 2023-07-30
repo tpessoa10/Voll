@@ -1,6 +1,7 @@
 import { Paper, Table, TableBody, TableCell, TableContainer, TableHead, TableRow, tableCellClasses } from '@mui/material'
 import IConsulta from '../../types/IConsulta'
 import styled from '@emotion/styled'
+import Botao from '../Botao'
 
 const CelulaEstilizada = styled(TableCell)(() =>({
     [`&.${tableCellClasses.head}`]: {
